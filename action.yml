@@ -99,7 +99,7 @@ runs:
       python-version: '>=3.9.0 <=3.13.3'
 
   - name: Setup and run aqtinstall
-    uses: ./action
+    uses: CeetronSolutions/install-qt-action/action@bump-node24
     with:
       dir: ${{ inputs.dir }}
       version: ${{ inputs.version }}
